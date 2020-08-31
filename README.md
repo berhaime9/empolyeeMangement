@@ -4,8 +4,10 @@
 
 ## DATABASE CONFIG
 
-DATABASE NAME "employeeDB"<br />
-TABLE NAME = "empolyee"<br />
+DATABASE NAME | employeeDB
+TABLE NAME | empolyee
+<br />
+
 id--> int --> primary key<br />
 name--> varchar<br />
 email--> varchar<br />
