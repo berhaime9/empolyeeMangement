@@ -2,6 +2,8 @@
 
 ![screenShots](/screenshots/dashboard.png)
 
+### PREREQUISITES
+
 ## DATABASE CONFIG
 
 | MYSQL CONFIG | NAME       |
@@ -20,8 +22,6 @@
 | location | varchar      |
 
  <br />
-
-### PREREQUISITES
 
 ### STEP 1
 
