@@ -1,3 +1,7 @@
+## Screenshots
+
+![screenShots](/screenshots/dashboard.png)
+
 ## Available Scripts
 
 In the project directory, you can run:

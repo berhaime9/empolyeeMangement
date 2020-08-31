@@ -213,7 +213,12 @@ export default class Employess extends Component {
         <FormEmp
           /* empolyee  form  to modify */
           url={`http://localhost:4001/api/emp/${this.state.editEmpData.id}`}
-          onSubmit={() => this.setState({ loading: true })}
+          onSubmit={() =>
+            this.setState({
+              loading: true,
+              modals: { ...this.state.modals, modal_center: false },
+            })
+          }
           getData={() => this.getData()}
           Data={() => this.Data()}
           title=" Modify Empolyee"
@@ -237,7 +242,7 @@ export default class Employess extends Component {
             }
             title={this.state.modals.title}
           >
-            <EditEmp empData={this.state.modals.editEmpData} />
+            <EditEmp />
           </Modals>
         }
         {/* alert message */}
