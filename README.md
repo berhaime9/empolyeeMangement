@@ -11,11 +11,15 @@
 
 <br />
 
-id--> int --> primary key<br />
-name--> varchar<br />
-email--> varchar<br />
-mobile--> varchar<br />
-location--> varchar<br />
+| NAME     | DATATYPE |
+| -------- | -------- |
+| id       | int      |
+| name     | varchar  |
+| email    | varchar  |
+| mobile   | varchar  |
+| location | varchar  |
+
+ <br />
 
 ### `npm i`
 
@@ -40,10 +44,12 @@ You will also see any lint errors in the console.
 
 ### **\*\*\*** Router APIS **\*\***
 
-http://localhost:4001/api/emp/---> method get ---> for getting data<br />
-http://localhost:4001/api/emp/----> method post ----> for adding data<br />
-http://localhost:4001/api/emp/delete ----> method post ---> for delete<br />
-http://localhost:4001/api/emp/:id -----> method put ---> for update<br />
+| ROUTERS                              | METHOD | PURPOSE      |
+| ------------------------------------ | ------ | ------------ |
+| http://localhost:4001/api/emp/       | get    | getting data |
+| http://localhost:4001/api/emp/       | post   | adding data  |
+| http://localhost:4001/api/emp/delete | post   | for delet    |
+| http://localhost:4001/api/emp/:id    | put    | for update   |
 
 ## Learn More
 
