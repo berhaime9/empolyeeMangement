@@ -21,6 +21,8 @@
 
  <br />
 
+### PREREQUISITES
+
 ### STEP 1
 
 Run this comment to install node modules for backend.
@@ -63,5 +65,5 @@ npm start
 | ------------------------------------ | ------ | ------------ |
 | http://localhost:4001/api/emp/       | get    | getting data |
 | http://localhost:4001/api/emp/       | post   | adding data  |
-| http://localhost:4001/api/emp/delete | post   | for delet    |
+| http://localhost:4001/api/emp/delete | post   | for delete   |
 | http://localhost:4001/api/emp/:id    | put    | for update   |
