@@ -84,11 +84,10 @@ export default class Employess extends Component {
 
   //selete employee one by one  to delete
   async deleteEmpolyee(data) {
-    const checkData = await this.state.deleteEmp.filter(
-      (e) => e.id === data.id
-    );
+    // console.log(await this.state.deleteEmp.some((e) => e.id === data.id));
+    const checkData = await this.state.deleteEmp.some((e) => e.id === data.id);
     // console.log(checkData);
-    if (checkData.length === 0) {
+    if (!checkData) {
       await this.setState({
         deleteEmp: [...this.state.deleteEmp, data],
       });
@@ -102,11 +101,12 @@ export default class Employess extends Component {
 
   // selecting all empolyee to delete
   async deleteAllEmpolyee(e) {
-    if (this.state.empData.rows.length === this.state.deleteEmp.length) {
+    if (this.state.emps.length === this.state.deleteEmp.length) {
       await this.setState({ deleteEmp: [] });
     } else {
       await this.setState({ deleteEmp: e });
     }
+    // console.log(this.state.deleteEmp);
   }
 
   //fecting data from data base
