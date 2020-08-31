@@ -29,22 +29,33 @@ run this comment to install node modules for backend:
 npm i
 ```
 
-### `node index.js`
+### STEP 2
 
-after installation is compelete start then backend by applying above command<br />
+after installation is compelete start then backend by applying above command
 
-### ` cd client`
+```
+node index.js
+```
 
-### ` npm i`
+### STEP 3
 
-run this comment to install node modules for frontend <br />
+run this comment to install node modules for frontend
 
-### `npm start`
+```
+cd client
+npm i
+```
+
+### STEP 4
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.<br />
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
+
+```
+npm start
+```
 
 ### Router APIS
 
