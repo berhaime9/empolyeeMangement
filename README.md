@@ -4,8 +4,11 @@
 
 ## DATABASE CONFIG
 
-DATABASE NAME | employeeDB
-TABLE NAME | empolyee
+| MYSQL CONFIG | NAME       |
+| ------------ | ---------- |
+| DATABASE     | employeeDB |
+| TABLE        | empolyee   |
+
 <br />
 
 id--> int --> primary key<br />
