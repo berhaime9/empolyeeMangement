@@ -2,9 +2,9 @@
 
 ![screenShots](/screenshots/dashboard.png)
 
-### PREREQUISITES
+## PREREQUISITES
 
-## DATABASE CONFIG
+### DATABASE CONFIG
 
 | MYSQL CONFIG | NAME       |
 | ------------ | ---------- |
