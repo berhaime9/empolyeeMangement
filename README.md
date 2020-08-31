@@ -2,11 +2,6 @@
 
 ![screenShots](/screenshots/dashboard.png)
 
-## Available Scripts
-
-In the project directory, you can run:
-<br />
-
 ## DATABASE CONFIG
 
 DATABASE NAME "employeeDB"<br />
