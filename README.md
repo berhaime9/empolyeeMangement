@@ -2,7 +2,7 @@
 
 ![screenShots](/screenshots/dashboard.png)
 
-## PREREQUISITES
+## SETUP
 
 ### DATABASE CONFIG
 
