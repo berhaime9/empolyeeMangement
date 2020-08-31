@@ -11,13 +11,13 @@
 
 <br />
 
-| NAME     | DATATYPE |
-| -------- | -------- |
-| id       | int      |
-| name     | varchar  |
-| email    | varchar  |
-| mobile   | varchar  |
-| location | varchar  |
+| NAME     | DATATYPE     |
+| -------- | ------------ |
+| id       | int(primary) |
+| name     | varchar      |
+| email    | varchar      |
+| mobile   | varchar      |
+| location | varchar      |
 
  <br />
 
