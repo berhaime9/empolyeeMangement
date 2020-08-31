@@ -23,7 +23,7 @@
 
 ### STEP 1
 
-run this comment to install node modules for backend:
+Run this comment to install node modules for backend.
 
 ```
 npm i
@@ -31,7 +31,7 @@ npm i
 
 ### STEP 2
 
-after installation is compelete start then backend by applying above command
+After installation is compelete start then backend by applying below command.
 
 ```
 node index.js
@@ -39,7 +39,7 @@ node index.js
 
 ### STEP 3
 
-run this comment to install node modules for frontend
+Run this comment to install node modules for frontend.
 
 ```
 cd client
