@@ -9,7 +9,6 @@ const dbfunc = require("./db-function");
 const empRouter = require("../app/routers/emp.route");
 
 //middlewares
-
 app.use(cors());
 app.use(express.json());
 

@@ -11,7 +11,5 @@ if (
 }
 
 //connecting to port
-const port = process.env.PORT;
-api.app.listen(port || 4001, () =>
-  console.log("sever started on localhost:4001")
-);
+const port = process.env.PORT || 4001;
+api.app.listen(port, () => console.log(`sever started on localhost:${port}`));

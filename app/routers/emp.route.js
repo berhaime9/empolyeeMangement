@@ -6,7 +6,7 @@ const validate = require("../middlewares/validate");
 //routers api
 // "http://localhost:4001/api/emp/"---> method get ---> for getting data
 // "http://localhost:4001/api/emp/"----> method post ----> for adding data
-//"http://localhost:4001/api/emp/delete" ----> method post ---> for delete
+// "http://localhost:4001/api/emp/delete" ----> method post ---> for delete
 // http://localhost:4001/api/emp/:id -----> method put ---> for update
 
 //routers gateway
