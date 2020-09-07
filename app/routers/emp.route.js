@@ -22,39 +22,4 @@ const init = (router) => {
   router.route("/emp/delete").post(controllers.deleteEmpolyee);
 };
 
-//fetching all empolyees from database
-// const getAllEmp = async (req, res) => {
-//   try {
-//     await empModel.getAllEmp(res);
-//   } catch (err) {
-//     res.status(400).send(message(err));
-//   }
-// };
-
-//create new empolyee record
-// const addEmp = async (req, res) => {
-
-// };
-
-//update existing empolyee record
-// const updateEmp = async (req, res) => {
-//   const empData = req.body;
-//   const id = req.params.id;
-//   try {
-//     await empModel.updateEmp(id, empData, res);
-//   } catch (err) {
-//     res.status(400).send(message(err.message));
-//   }
-// };
-
-//deleting employee record
-// const deleteEmp = async (req, res) => {
-//   const emp = req.body.emp;
-//   try {
-//     await empModel.deleteEmp(emp, res);
-//   } catch (err) {
-//     res.status(400).send(message(err.message));
-//   }
-// };
-
 module.exports.init = init;
