@@ -1,12 +1,14 @@
+// npm modules components
 import React, { Component } from "react";
 import { Row, Col, Button } from "reactstrap";
 import axios from "axios";
 import { CSVLink } from "react-csv";
 import { MDBDataTableV5 } from "mdbreact";
+import xlsx from "xlsx";
+// local  components
+import Message from "./Message";
 import Modals from "./Modal";
 import FormEmp from "./FormEmp";
-import xlsx from "xlsx";
-import Message from "./Message";
 
 export default class Employess extends Component {
   constructor(props) {

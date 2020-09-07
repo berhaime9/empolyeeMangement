@@ -1,3 +1,4 @@
+// npm modules components
 import React, { Component } from "react";
 import { FormGroup, Button } from "reactstrap";
 import { AvForm, AvField } from "availity-reactstrap-validation";
@@ -12,7 +13,6 @@ export default class FormEmp extends Component {
   async handleValidSubmit(event, values) {
     // console.log(this.props);
     event.persist();
-
     await this.props
       .method(this.props.url, values)
       .then(async (res) => {
